@@ -1,5 +1,4 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 import Header from '../pags/Sharde/Header';
 import Footer from '../pags/Sharde/Footer';
 import { Col, Container, Row } from 'react-bootstrap';
