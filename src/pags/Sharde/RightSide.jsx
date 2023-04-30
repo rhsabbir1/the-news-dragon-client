@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, ListGroup } from 'react-bootstrap';
 import { FaGoogle, FaGithub, FaFacebook,FaTwitter , FaInstagram } from 'react-icons/fa';
+import Qzone from './Qzone';
 
 const RightSide = () => {
     return (
@@ -13,9 +14,11 @@ const RightSide = () => {
                 <ListGroup>
                     <ListGroup.Item><FaFacebook></FaFacebook> Facebook</ListGroup.Item>
                     <ListGroup.Item><FaTwitter></FaTwitter> Twitter</ListGroup.Item>
-                    <ListGroup.Item><FaInstagram></FaInstagram> Instagram</ListGroup.Item>
-                    
+                    <ListGroup.Item><FaInstagram></FaInstagram> Instagram</ListGroup.Item> 
                 </ListGroup>
+            </div>
+            <div>
+                <Qzone></Qzone>
             </div>
         </div>
     );
