@@ -16,12 +16,12 @@ const Left = () => {
         <div>
             <h4>All catagoris</h4>
           
-           <div>
+           <div className='ps-2'>
             {
-                cartaGoris.map(cataGory => <p
-                key={cataGory.id}
+                cartaGoris.map(catagory => <p
+                key={catagory.id}
                 >
-                    <Link>{cataGory.name}</Link>
+                    <Link to={`/catagory/${catagory.id}`} className='text-decoration-none text-black'>{catagory.name}</Link>
                     </p>)
             }
            </div>

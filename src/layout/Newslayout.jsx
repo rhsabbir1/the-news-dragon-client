@@ -6,16 +6,13 @@ import Left from '../pags/Sharde/Left';
 import RightSide from '../pags/Sharde/RightSide';
 import { Outlet } from 'react-router-dom';
 
-const Main = () => {
+const Newslayout = () => {
     return (
         <div>
             <Header></Header>
             <Container>
                 <Row>
-                    <Col lg={3}>
-                        <Left></Left>
-                    </Col>
-                    <Col lg={6}>
+                    <Col lg={9}>
                        <Outlet></Outlet>
                     </Col>
                     <Col lg={3}>
@@ -28,4 +25,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Newslayout;
